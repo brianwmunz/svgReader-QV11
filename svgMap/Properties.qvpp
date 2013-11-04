@@ -1,0 +1,110 @@
+<div class="ToolWindow-MainBody" avq="foldOutMenu:." style="overflow: visible !important; float: left;">
+	<div class="prop-accordion" avq="accordion:.">
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				SVG Map
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+			
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Region ID</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7' avq='prop_dynamicDropdown:.Chart.Dimension.0.Field'></div>
+		<div class='prop-width-28px' propicontype='tool' avq='prop_dlgbuttonjqui:.Chart.Dimension.0:ExtensionDimDialog.qvpp'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Measure</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.0.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Color Expression</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.1.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Popup Contents</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.2.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Disabled Color</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.0.Content:Color.qvpp'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Element Border</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.1.Content'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Map</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<select style='width:94%;' avq='mySelect:.Chart.Text.2.Content'>
+			<option value='none'>Select or Load a Map</option>
+			<option value='africa.svg'>Africa</option>
+			<option value='argentina.svg'>Argentina</option>
+			<option value='australia.svg'>Australia</option>
+			<option value='austria.svg'>Austria</option>
+			<option value='belgium.svg'>Belgium</option>
+			<option value='brazil.svg'>Brazil</option>
+			<option value='canada.svg'>Canada</option>
+			<option value='china.svg'>China</option>
+			<option value='denmark.svg'>Denmark</option>
+			<option value='europe.svg'>Europe</option>
+			<option value='france_departments.svg'>France</option>
+			<option value='germany.svg'>Germany</option>
+			<option value='india.svg'>India</option>
+			<option value='japan.svg'>Japan</option>
+			<option value='luxembourg.svg'>Luxembourg</option>
+			<option value='mexico.svg'>Mexico</option>
+			<option value='netherlands.svg'>Netherlands</option>
+			<option value='norway.svg'>Norway</option>
+			<option value='pakistan.svg'>Pakistan</option>
+			<option value='peru.svg'>Peru</option>
+			<option value='poland.svg'>Poland</option>
+			<option value='russia.svg'>Russia</option>
+			<option value='saudi_arabia.svg'>Saudi Arabia</option>
+			<option value='south_africa.svg'>South Africa</option>
+			<option value='south_korea.svg'>South Korea</option>
+			<option value='spain.svg'>Spain</option>
+			<option value='sweden_provinces.svg'>Sweden Provinces</option>
+			<option value='sweden_counties.svg'>Sweden Counties</option>
+			<option value='switzerland.svg'>Switzerland</option>
+			<option value='taiwan.svg'>Taiwan</option>
+			<option value='turkey_regions_and_provinces.svg'>Turkey</option>
+			<option value='uk.svg'>UK Counties</option>
+			<option value='us.svg'>US</option>
+			<option value='us_counties.svg'>US Counties</option>
+			<option value='venezuela.svg'>Venezuela</option>
+			<option value='world.svg'>World</option>
+		</select>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Load SVG path</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.3.Content'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Ignore fill:none</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.4.Content'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Zoom selected regions</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.5.Content'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Show Controls</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.6.Content'></div>
+	</div><br />
+
+		</div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:GenericPresentationFoldout.qvpp">
+			<a href="#">Presentation</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Layout.qvpp"></div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader::PropertiesCaptionFoldout.qvpp">
+			<a href="#">Caption</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Caption.qvpp"></div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:PropertiesOptionsFoldout.qvpp">
+			<a href="#">Options</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Options.qvpp"></div>
+	</div>
+	<span class="bottom-gap"></span>
+</div>
