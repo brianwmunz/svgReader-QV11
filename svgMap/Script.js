@@ -1,4 +1,4 @@
-��function svgMap_Example_Init() {
+function svgMap_Example_Init() {
 
 	if ( typeof jQuery == "undefined") {
 
