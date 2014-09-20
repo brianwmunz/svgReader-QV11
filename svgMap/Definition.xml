@@ -5,6 +5,7 @@
   <Measurement Label="Color Expression" Initial="Sum(Num)" TargetName="Color Expression" />
   <Measurement Label="Popup Contents" Initial="" TargetName="Popup Contents"/>
   <Text Label="Disabled Color" Type="color"/>
+  <Text Label="Base (Cold) Color" Type="color"/>
   <Text Label="Element Border" Type="checkbox"/>
   <Text Label="Map" Type="select" Select="none,africa.svg,argentina.svg,australia.svg,austria.svg,belgium.svg,brazil.svg,canada.svg,china.svg,denmark.svg,europe.svg,france_departments.svg,germany.svg,india.svg,japan.svg,luxembourg.svg,mexico.svg,netherlands.svg,norway.svg,pakistan.svg,peru.svg,poland.svg,russia.svg,saudi_arabia.svg,south_africa.svg,south_korea.svg,spain.svg,sweden_provinces.svg,sweden_counties.svg,switzerland.svg,taiwan.svg,turkey_regions_and_provinces.svg,uk.svg,us.svg,us_counties.svg,venezuela.svg,world.svg" SelectLabel="Select or Load a Map,Africa,Argentina,Australia,Austria,Belgium,Brazil,Canada,China,Denmark,Europe,France,Germany,India,Japan,Luxembourg,Mexico,Netherlands,Norway,Pakistan,Peru,Poland,Russia,Saudi Arabia,South Africa,South Korea,Spain,Sweden Provinces,Sweden Counties,Switzerland,Taiwan,Turkey,UK Counties,US,US Counties,Venezuela,World"/>
   <Text Label="Load SVG path" Type="text"/>
@@ -14,4 +15,5 @@
   <Initiate Name="Chart.Title" value="SVG Reader" />
   <Initiate Name="Caption.Text" Value="SVG Reader" />
   <Initiate Name="Chart.BgColor.ColorHex" value="#FFF" />
+  <PropertiesPage Version="11" File="MyProperties.qvpp" />  
 </ExtensionObject>
