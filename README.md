@@ -4,7 +4,7 @@ The QlikView SVGreader Extension is meant to provide the ability to visualize da
 An SVG image is basically an XML document which contains data telling the internet browser how to draw an image. The different shapes that the SVG draws can be separated out in the XML and thus manipulated and colored however necessary. This extension takes advantage of this technology by allowing the QVW to target and color the different shapes by identifying the ID of the SVG element. 
 
 
-![alt tag](http://branch.qlik.com/projects/attachment.php?attachmentid=67)
+![alt tag](https://github.com/brianwmunz/svgReader-QV11/blob/master/screenshots/us.png)
 
 
 For example, a map of US states will have a shape for the state of Pennsylvania. This state is represented in the SVG image as some code with an ID of "PA". By targeting this ID of "PA" the extension is able to then color this state.A very useful (and free) tool for identifying and manipulating SVG IDs is Inkscape.  It can also be used to draw SVGs.
@@ -22,7 +22,7 @@ Once a map is chosen and loaded in the extension, the data in the QVW will need 
 You can also create custom SVGs of just about anything, even a snail:
 
 
-![alt tag](https://raw.githubusercontent.com/brianwmunz/svgReader/master/screenshots/snail.png)
+![alt tag](https://github.com/brianwmunz/svgReader-QV11/blob/master/screenshots/snail.png)
 
 
 If you create your own custom SVG maps, please contribute them to [Qlik Branch](http://branch.qlik.com)
@@ -38,7 +38,7 @@ I've fixed some issues people were having (hopefully) with the maps loading stra
 Also, I've added the idea of a "Base" or "Cold" color.  This can be used to blend two colors instead of simply shading one color between itself and white.  For example, this image shows Swedish provinces with a color expression of green and a Base color of red.
 
 
-![alt tag](https://raw.githubusercontent.com/brianwmunz/svgReader/master/screenshots/sweden.png)
+![alt tag](https://github.com/brianwmunz/svgReader-QV11/blob/master/screenshots/sweden.png)
 
 
 There are several ways that this extension could be improved:
@@ -54,7 +54,7 @@ Installation & Use
 
 The properties are relatively straightforward:
 
-![alt tag](https://raw.githubusercontent.com/brianwmunz/svgReader/master/screenshots/properties.png)
+![alt tag](https://github.com/brianwmunz/svgReader-QV11/blob/master/screenshots/properties.png)
 
 
 **Region ID** should be set to the dimension which contains values matching the IDs in the SVG.  If they don't match, the extension **WON'T WORK**
