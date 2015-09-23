@@ -435,7 +435,7 @@ function svgMap_Example_Done() {
         });
         var i;
         var s, o, u;
-        Qva.LoadCSS("/QvAjaxZfc/QvsViewClient.aspx?public=only&name=Extensions/svgMap/style.css");
+        Qva.LoadCSS("../QvAjaxZfc/QvsViewClient.aspx?public=only&name=Extensions/svgMap/style.css");
         $("body").append('<div class="arrowDown" id="hoverBox"><p></p></div>');
         var a = n.Layout.Text2.text.toString();
         var f = n.Layout.Text6.text.toString();
